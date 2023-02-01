@@ -1,0 +1,628 @@
+*{
+    box-sizing: border-box;
+}
+
+.redText{
+    color: red;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+}
+
+a:hover{
+    font-weight: bold;
+    color: white;
+}
+
+.welcome {
+    text-align: center;
+}
+
+#descrizioneProdotto{
+    resize: none;
+}
+/*sezione login e registrazione*/
+
+#loginBox button{
+    border: 2px solid black;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 150%;
+    background-color: lightgreen;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+#userCh, #passCh, #nomeCh, #cognomeCh, #userRegCh, #passRegCh, #emailCh,
+#cittaCh, #nomeProdCh{
+    float:right;
+    position: relative;
+    top: 40px;
+    right: 5px;
+}
+
+#descrProdCh{
+    float:right;
+    position: relative;
+    top: 88px;
+    right: 5px;
+}
+
+#loginBox button:hover{
+    background-color: palevioletred;
+}
+
+#loginBox input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+#regBox button{
+    border: 2px solid black;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 150%;
+    background-color: lightgreen;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+#regBox button:hover{
+    background-color: palevioletred;
+}
+
+#regBox input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+/*sezione prodotti*/
+.descrizioneProdotti{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.descrizioneProdotti h2 p {
+    font-size: 120%;
+}
+
+/*sezione chi siamo*/
+.descrizioneChiSiamo{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.descrizioneChiSiamo h2 p {
+    font-size: 120%;
+}
+
+/* stile home page*/
+.presentazione{
+    background: linear-gradient(-45deg, #1b1259 55%, palevioletred);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    height: auto;
+}
+
+.presentazione h2{
+    font-size: 300%;
+}
+
+.presentazione p{
+    font-size: 200%;
+}
+
+#lettera, #lettera h3 p{
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    height: auto;
+    text-align: left;
+    font-size: 110%;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+
+/*Sezione stili degli sponsor e simili*/
+.sponsorSpace{
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sponsor{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    background: linear-gradient(-45deg, lightgreen, #2D3142 61%);
+    border-radius: 5px;
+}
+
+/*sezione area personale*/
+#personalArea{
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    padding: 30px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 400px;
+    text-align: center;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+#personalArea input{
+    border: 2px solid black;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 150%;
+    background-color: lightgreen;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+#personalArea input:hover{
+    background-color: palevioletred;
+}
+
+/*sezione inserimento prodotto*/
+#prodottoBox h2{
+    text-align: center;
+}
+
+#prodottoBox button{
+    border: 2px solid black;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 150%;
+    background-color: lightgreen;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+#prodottoBox button:hover{
+    background-color: palevioletred;
+}
+
+#prodottoBox textarea, #prodottoBox input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+
+
+/* sezione per cambiare font*/
+.fontChangerContainer{
+    background: linear-gradient(45deg, grey 50%, white);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fontChangerContainer .btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns .btn{
+    padding: 0 10px;
+    margin: 5px;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: white;
+    color: #111111;
+    border-style: solid;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.fontChangerContainer .btns .btn.active{
+    background: lightgreen;
+}
+
+.fontChangerContainer .btns .btn:nth-child(2){
+    font-size: 1.5em;
+}
+
+.fontChangerContainer .btns .btn:nth-child(3){
+    font-size: 2em;
+}
+
+.btn:hover{
+    border-color: #2d64e3;
+}
+
+.mainColumn {
+    font-size: 1em;
+    transition: 0.4s;
+    text-align: center;
+}
+
+.welcome h2, .welcome p{
+    transition: 0.4s;
+}
+
+/*stili che si applicano se la dimensione della finestra è maggiore di 768px*/
+@media only screen and (min-width: 768px)
+{
+    .logoImg{
+        vertical-align: middle;
+        height: 100px;
+        float:left;
+    }
+
+    .logoTitle{
+        padding: 10px;
+        float: left;
+    }
+    
+    h1{
+        font-family: 'Roboto Slab', serif;
+        position: relative;
+        bottom: 8px;
+        right: 15px;
+    }
+    
+    .container{
+        display: grid;
+        height: 100vh;
+        grid-template-areas:
+            "header header header"
+            "nav nav nav"
+            "main main aside"
+            "footer footer footer";
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 0.1fr 1.5fr 0.5fr;
+    }
+    
+    body{
+        margin: 0px;
+    }
+    
+    header{
+        padding: 2px;
+        text-align: center;
+        background: linear-gradient(to right, #1b1259 10%, palevioletred);
+        grid-area: header;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        color: white;
+    }
+    
+    main{
+        grid-area: main;
+        text-align: center;
+    }
+
+    aside{
+        grid-area: aside;
+        text-align: center;
+    }
+    
+    nav{
+        background: #1b1259;
+        text-align: center;
+        grid-area: nav;
+    }
+    
+    footer{
+        text-align: center;
+        background: #1b1259;
+        grid-area: footer;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    nav ul, nav li{
+        list-style-type: none;
+        display:  inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    nav a{
+        color: white;
+        text-decoration: none;
+    }
+
+    nav li{
+        border-right: 2px solid palevioletred;
+    }
+
+    nav li:last-child{
+        border-right: 0px solid;
+    }
+    
+    /*chi siamo*/
+    .chiSiamo{
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        max-width: 800px;
+        border-radius: 5px;
+        background: linear-gradient(-45deg, white, lightgrey 50%);
+        font-family: 'Roboto Slab', serif;
+        
+    }
+    
+    .chiSiamo h3{
+        font-size: 130%;
+    }
+    
+    .chiSiamo img{
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+    .chiSiamoFoto{
+        float: left;
+    }
+
+    .chiSiamoContent{
+        margin-left: 210px;
+        text-align: center;
+    }
+    
+    /*prodotti*/
+    .product{
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        max-width: 800px;
+        border-radius: 5px;
+        background: linear-gradient(-45deg, white, lightgrey 50%);
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    .product img{
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+    .productFoto{
+        float: left;
+    }
+
+    .productContent{
+        margin-left: 210px;
+        text-align: justify;
+        position: relative;
+        bottom: 10px;
+    }
+    
+    #prodottoBox{
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        padding: 30px;
+        padding-top: 10px;
+        margin: auto;
+        margin-top: 20px;
+        max-width: 800px;
+        text-align: left;
+    }
+    
+    #loginBox{
+    border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        padding: 30px;
+        padding-top: 10px;
+        margin: auto;
+        margin-top: 20px;
+        max-width: 800px;
+        text-align: left;
+    }
+    
+    #regBox{
+    border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        padding: 30px;
+        padding-top: 10px;
+        margin: auto;
+        margin-top: 20px;
+        max-width: 800px;
+        text-align: left;
+    }
+}
+
+/*Quando la dimensione schermo scende sotto i 768px*/
+@media only screen and (max-width: 768px)
+{
+    #prodottoBox{
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        padding: 30px;
+        padding-top: 10px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 95%;
+        text-align: left;
+    }
+    
+    .container{
+        display: grid;
+        height: 100vh;
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "aside"
+            "footer";
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.2fr 1.5fr 1fr 0.5fr;
+    }
+    
+    body{
+        margin: 0px;
+    }
+    
+    header{
+        text-align: center;
+        padding: 2px;
+        background: linear-gradient(to bottom, #1b1259 30%, palevioletred);
+        grid-area: header;
+        color: white;
+    }
+    
+    main{
+        grid-area: main;
+        text-align: center;
+    }
+
+    aside{
+        grid-area: aside;
+        text-align: center;
+    }
+    
+    nav{
+        background: #1b1259;
+        text-align: center;
+        grid-area: nav;
+        color: white;
+    }
+    
+    footer{
+        text-align: center;
+        background: #1b1259;
+        grid-area: footer;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    nav li{
+        list-style-type: none;
+        position: relative;
+        right: 25px;
+    }
+    
+    nav a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .logoImg{
+        height: 75px;
+    }
+
+    .logoTitle{
+        position: relative;
+        top: -20px;
+    }
+    
+    /*chi siamo*/
+    .chiSiamo{
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        max-width: 95%;
+        border-radius: 5px;
+        background: linear-gradient(-45deg, white, lightgrey 50%);
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    .chiSiamo h3{
+        font-size: 130%;
+    }
+    
+    .chiSiamo img{
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+    .chiSiamoFoto{
+        float: none;
+    }
+
+    .chiSiamoContent{
+        text-align: center;
+    }
+    
+    /*prodotti*/
+    .product{
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        max-width: 95%;
+        border-radius: 5px;
+        background: linear-gradient(-45deg, white, lightgrey 50%);
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .productFoto{
+        float: none;
+    }
+
+    .productContent{
+        text-align: center;
+    }
+    
+    .product img{
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    
+    #loginBox{
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        padding: 30px;
+        padding-top: 10px;
+        margin: auto;
+        margin-top: 20px;
+        max-width: 95%;
+        text-align: left;
+    }
+    
+    #regBox{
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        padding: 30px;
+        padding-top: 10px;
+        margin: auto;
+        margin-top: 20px;
+        max-width: 95%;
+        text-align: left;
+    }
+}
