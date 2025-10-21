@@ -1,6 +1,5 @@
 # Informaticando
-Progetto per il corso di Fondamenti di Programmazione Web del corso di Laurea in Informatica dell'Università degli Studi di Cagliari.  
-Realizzato con:
+A simple university project made to learn web development. Built with:
   * Apache NetBeans 12.6
   * Glassfish Server 5.0.1
   * Java SDK 17
